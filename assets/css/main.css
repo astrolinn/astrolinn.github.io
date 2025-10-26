@@ -1448,7 +1448,7 @@ body.is-preload #bg:before {
 		@media screen and (max-width: 980px) {
 
 			#header .content p br {
-				display: none;
+				display: block;
 			}
 
 		}
@@ -1480,6 +1480,9 @@ body.is-preload #bg:before {
 
 			#header .content p {
 				line-height: 1.875;
+			}
+			#header .content p br {
+				display: block;
 			}
 
 		}
